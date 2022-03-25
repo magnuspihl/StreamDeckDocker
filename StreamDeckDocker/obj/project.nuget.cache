@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "c+064iBCEh2N3k+eo3hKJuXBk/J/USLAuZLcrqd/RyzTeB+oqAqJGtbzoSu76Y5KQ9fKzGNGgLubxzipUHYx4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\StreamDeckDocker\\StreamDeckDocker\\StreamDeckDocker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\magnu\\.nuget\\packages\\docker.dotnet\\3.125.5\\docker.dotnet.3.125.5.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\magnu\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "C:\\Users\\magnu\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\magnu\\.nuget\\packages\\openmacroboard.sdk\\3.0.0\\openmacroboard.sdk.3.0.0.nupkg.sha512",
+    "C:\\Users\\magnu\\.nuget\\packages\\streamdecksharp\\3.2.0\\streamdecksharp.3.2.0.nupkg.sha512",
+    "C:\\Users\\magnu\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\magnu\\.nuget\\packages\\system.drawing.common\\4.5.1\\system.drawing.common.4.5.1.nupkg.sha512",
+    "C:\\Users\\magnu\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
