@@ -9,7 +9,9 @@
       "StreamDeckDocker/1.0.0": {
         "dependencies": {
           "Docker.DotNet": "3.125.5",
-          "StreamDeckSharp": "3.2.0"
+          "StreamDeckSharp": "3.2.0",
+          "System.CommandLine": "2.0.0-beta3.22114.1",
+          "System.CommandLine.DragonFruit": "0.4.0-alpha.22114.1"
         },
         "runtime": {
           "StreamDeckDocker.dll": {}
@@ -28,6 +30,7 @@
           }
         }
       },
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.NETCore.Platforms/2.0.0": {},
       "Microsoft.Win32.SystemEvents/4.5.0": {
         "dependencies": {
@@ -84,6 +87,94 @@
         }
       },
       "System.Buffers/4.5.1": {},
+      "System.CommandLine/2.0.0-beta3.22114.1": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CommandLine.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.22.11401"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/cs/System.CommandLine.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/System.CommandLine.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/System.CommandLine.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/System.CommandLine.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/System.CommandLine.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/System.CommandLine.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/System.CommandLine.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/System.CommandLine.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/System.CommandLine.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/System.CommandLine.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/System.CommandLine.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/System.CommandLine.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/System.CommandLine.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "System.CommandLine.DragonFruit/0.4.0-alpha.22114.1": {
+        "dependencies": {
+          "System.CommandLine": "2.0.0-beta3.22114.1",
+          "System.CommandLine.NamingConventionBinder": "2.0.0-beta3.22114.1",
+          "System.CommandLine.Rendering": "0.4.0-alpha.22114.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CommandLine.DragonFruit.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.400.22.11401"
+          }
+        }
+      },
+      "System.CommandLine.NamingConventionBinder/2.0.0-beta3.22114.1": {
+        "dependencies": {
+          "System.CommandLine": "2.0.0-beta3.22114.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CommandLine.NamingConventionBinder.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.22.11401"
+          }
+        }
+      },
+      "System.CommandLine.Rendering/0.4.0-alpha.22114.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.CommandLine": "2.0.0-beta3.22114.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CommandLine.Rendering.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.400.22.11401"
+          }
+        }
+      },
       "System.Drawing.Common/4.5.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -110,6 +201,7 @@
           }
         }
       },
+      "System.Memory/4.5.4": {},
       "System.Threading.Tasks.Extensions/4.5.4": {}
     }
   },
@@ -125,6 +217,13 @@
       "sha512": "sha512-1tClPIBzz/7HP1XejCdTiRMviVRtS14omyRhHD0R6086woRRBCh61hJeVrpL6CVTnsRui4X9qaI8wO8xOCqKkQ==",
       "path": "docker.dotnet/3.125.5",
       "hashPath": "docker.dotnet.3.125.5.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/2.0.0": {
       "type": "package",
@@ -168,12 +267,47 @@
       "path": "system.buffers/4.5.1",
       "hashPath": "system.buffers.4.5.1.nupkg.sha512"
     },
+    "System.CommandLine/2.0.0-beta3.22114.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QMzk1jj+PzdGbwuVsxII7FcQaCelnK+TcRcAqOGVoPovLBCSQPdikKiEzb56vAidvum5t4LSdDZ34O4j7+ALgw==",
+      "path": "system.commandline/2.0.0-beta3.22114.1",
+      "hashPath": "system.commandline.2.0.0-beta3.22114.1.nupkg.sha512"
+    },
+    "System.CommandLine.DragonFruit/0.4.0-alpha.22114.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HfFET6rQUyWFh0YZkggQ3nKD5JeHmW+p7kpknS0lAV6H70c2p+/g/DtND/Ibd13PZ3Y+hKenkeUFj6AMxL1n7Q==",
+      "path": "system.commandline.dragonfruit/0.4.0-alpha.22114.1",
+      "hashPath": "system.commandline.dragonfruit.0.4.0-alpha.22114.1.nupkg.sha512"
+    },
+    "System.CommandLine.NamingConventionBinder/2.0.0-beta3.22114.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sNy+prEfFXmNPL29FRaS35rwCT9gpXRT/LywFnCw1iB8b3aIp5eDOL0ykKrVdLVP3pYSvrBWVvb7cQZVMwE69A==",
+      "path": "system.commandline.namingconventionbinder/2.0.0-beta3.22114.1",
+      "hashPath": "system.commandline.namingconventionbinder.2.0.0-beta3.22114.1.nupkg.sha512"
+    },
+    "System.CommandLine.Rendering/0.4.0-alpha.22114.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR0xk6MeMzUtEdlTeg3pLJA56lSSPNhjIkUREGhXdWQemIeD3YuOrCtfzZVl+0/CIpE0QqeGBEAaXrLBrbttEQ==",
+      "path": "system.commandline.rendering/0.4.0-alpha.22114.1",
+      "hashPath": "system.commandline.rendering.0.4.0-alpha.22114.1.nupkg.sha512"
+    },
     "System.Drawing.Common/4.5.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-GiyeGi/v4xYDz1vCNFwFvhz9k1XddOG7VD3jxRqzRBCbTHji+s3HxxbxtoymuK4OadEpgotI8zQ5+GEEH9sUEQ==",
       "path": "system.drawing.common/4.5.1",
       "hashPath": "system.drawing.common.4.5.1.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
     },
     "System.Threading.Tasks.Extensions/4.5.4": {
       "type": "package",

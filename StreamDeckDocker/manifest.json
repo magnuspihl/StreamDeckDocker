@@ -1,0 +1,35 @@
+{
+  "Actions": [
+    {
+      "Icon": "icon",
+      "Name": "Docker",
+      "States": [
+        {
+          "Image": "defaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "17"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "This action starts or stops a Docker project",
+      "UUID": "com.magnuspihl.docker"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "Magnus Pihl",
+  "CodePathWin": "StreamDeckDocker.exe",
+  "Description": "Starts or stops a Docker project",
+  "Name": "Docker",
+  "Icon": "pluginIcon",
+  "URL": "https://www.magnuspihl.net",
+  "Version": "0.1",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "4.1"
+  }
+}

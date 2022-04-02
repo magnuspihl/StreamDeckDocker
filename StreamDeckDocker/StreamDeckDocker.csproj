@@ -9,7 +9,17 @@
 
   <ItemGroup>
     <PackageReference Include="Docker.DotNet" Version="3.125.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="StreamDeckSharp" Version="3.2.0" />
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta3.22114.1" />
+    <PackageReference Include="System.CommandLine.DragonFruit" Version="0.4.0-alpha.22114.1" />
+    <PackageReference Include="Websocket.Client" Version="4.4.43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="manifest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
